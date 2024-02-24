@@ -33,14 +33,14 @@ export const WalletSelectionDialog = (props: WalletSelectionDialogProps) => {
           />
           HashPack
         </Button>
-        <Button
+        {/* <Button
           variant="contained"
           onClick={() => {
             connectToBladeWallet();
           }}
         >
           Blade
-        </Button>
+        </Button> */}
         <Button
           variant="contained"
           onClick={() => {
